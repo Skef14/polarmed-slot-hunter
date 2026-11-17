@@ -1,0 +1,21 @@
+{
+  "name": "polarmed-slot-hunter",
+  "version": "0.3.2",
+  "private": true,
+  "license": "MIT",
+  "description": "Пользовательский скрипт поиска свободных талонов на reg.polarmed.ru, на основе emias-slot-hunter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Skef14/polarmed-slot-hunter.git"
+  },
+  "homepage": "https://github.com/Skef14/polarmed-slot-hunter",
+  "bugs": {
+    "url": "https://github.com/Skef14/polarmed-slot-hunter/issues"
+  },
+  "scripts": {
+    "test": "node scripts/check-fixtures.js && node --test test/*.test.js",
+    "build": "node scripts/build.js",
+    "build:inspector": "node scripts/build-inspector.js",
+    "build:polarmed": "node scripts/build-polarmed.js"
+  }
+}

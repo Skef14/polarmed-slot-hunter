@@ -1,0 +1,13 @@
+.superpowers/
+node_modules/
+.DS_Store
+docs/superpowers/
+# Материалы пользователя могут содержать данные пациента и параметры сессии.
+data-site/
+# Секреты и локальные выгрузки не должны попадать в публичный репозиторий.
+.env
+.env.*
+*.har
+*.log
+*cookies*.txt
+*token*.txt
