@@ -3,7 +3,7 @@
   "version": "0.3.2",
   "private": true,
   "license": "MIT",
-  "description": "Пользовательский скрипт поиска свободных талонов на reg.polarmed.ru, на основе emias-slot-hunter",
+  "description": "Пользовательский скрипт поиска свободных талонов на reg.polarmed.ru",
   "repository": {
     "type": "git",
     "url": "https://github.com/Skef14/polarmed-slot-hunter.git"
